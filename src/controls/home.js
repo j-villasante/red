@@ -5,7 +5,7 @@ export default class Home {
         $('.button-collapse').sideNav()
         $('#modal-new-word').modal()
 
-        $('#btn-add-word').click(() => this.addWord())
+        $('#btn-add-word').on('touchend', () => this.addWord())
     }
 
     addWord () {
