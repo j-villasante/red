@@ -3,9 +3,27 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
-        <title>Blank App</title>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+        <title>Red</title>
     </head>
     <body>
+        <nav>                
+            <ul id="slide-out" class="side-nav">
+                <li><a><i class="material-icons">cloud</i>First Link With Icon</a></li>
+                <li><a>Second Link</a></li>
+                <li><div class="divider"></div></li>
+                <li><a class="subheader">Subheader</a></li>
+                <li><a class="waves-effect">Third Link With Waves</a></li>
+            </ul>
+            <a class="brand-logo">RED</a>
+            <a data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+        </nav>
+        <div class="container">
+            <a class="waves-effect waves-light btn" id="main-button">test</a>
+        </div>
+        
         <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="./js/bundle.js"></script>
     </body>
 </html>

@@ -1,0 +1,48 @@
+{
+    "name": "red",
+    "version": "1.0.0",
+    "description": "Hybrid app to teach children with Down syndrome to read.",
+    "dependencies": {
+        "cordova-android": "^6.2.3",
+        "cordova-plugin-vibration": "^2.1.5",
+        "jquery": "^3.2.1",
+        "materialize-css": "^0.100.2",
+        "vue": "^2.4.4"
+    },
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-clean-css": "^3.9.0",
+        "gulp-header": "^1.8.9",
+        "gulp-sass": "^3.1.0",
+        "uglifyjs-webpack-plugin": "^0.4.6",
+        "webpack": "^3.6.0"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "webpack": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/j-villasante/red.git"
+    },
+    "keywords": [
+        "Down",
+        "syndrome",
+        "children",
+        "research"
+    ],
+    "author": "Josue Villasante",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/j-villasante/red/issues"
+    },
+    "homepage": "https://github.com/j-villasante/red#readme",
+    "cordova": {
+        "platforms": [
+            "android"
+        ],
+        "plugins": {
+            "cordova-plugin-vibration": {}
+        }
+    }
+}
