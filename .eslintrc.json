@@ -14,5 +14,8 @@
         "no-var": "error",
         "prefer-template": "error",
         "indent": ["error", 4]
+    },
+    "globals": {
+        "Materialize": true
     }
 }
